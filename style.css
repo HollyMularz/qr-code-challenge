@@ -1,0 +1,65 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+}
+
+
+.card h1 {
+  color: var(--slate-900);
+}
+.card p {
+  color: var(--slate-500);
+}
+
+body {
+  background-color: var(--slate-300);
+  font-family: 'Outfit', sans-serif;
+  font-size: 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0; /* Prevent unwanted spacing at the top */
+}
+
+
+.card {
+  background-color: var(--white);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 320px;
+  width: 90%;
+}
+
+
+.card img {
+  width: 100%;
+  max-width: 288px; /* Keeps it from getting oversized */
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
